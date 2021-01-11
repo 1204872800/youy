@@ -1,0 +1,71 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/public/public",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/find/find",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#A3A3A3",
+		"selectedColor": "#2D2D2D",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"fontSize":"30px",
+		"height":"60px",
+		"list": [{
+		    "pagePath": "pages/index/index",
+		    "iconPath": "static/tabbar/index.png",
+		     "selectedIconPath":"static/tabbar/index-sel.png",
+		    "text": "优甜"
+		}, {
+		    "pagePath": "pages/public/public",
+		    "iconPath": "static/tabbar/public.png",
+		    "selectedIconPath": "static/tabbar/public-sel.png",
+		    "text": "广场"
+		},{
+		    "pagePath": "pages/find/find",
+		    "iconPath": "static/tabbar/find.png",
+		    "selectedIconPath": "static/tabbar/find-sel.png",
+		    "text": "发现"
+		}, {
+		    "pagePath": "pages/news/news",
+		    "iconPath": "static/tabbar/news.png",
+		    "selectedIconPath": "static/tabbar/news-sel.png",
+		    "text": "消息"
+		}, {
+		    "pagePath": "pages/my/my",
+		    "iconPath": "static/tabbar/my.png",
+		    "selectedIconPath": "static/tabbar/my-sel.png",
+		    "text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"navigationStyle": "custom",
+		"autoscan": true
+	}
+}
